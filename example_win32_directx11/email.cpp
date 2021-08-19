@@ -6,6 +6,8 @@ using namespace std;
 void email(char email_target,char message)
 {
     string email_Get, email_message;
+    email_Get = email_target;
+    email_message = message;
 
 	CSmtp smtp(
 		25,								/*smtp¶Ë¿Ú*/
